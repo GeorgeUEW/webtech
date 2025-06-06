@@ -1,0 +1,468 @@
+body{
+	background-image:url(background.jpg);
+	background-size:auto;
+	font-family: Open Sans;
+	overflow: scroll;
+}
+
+
+
+html{ 
+	scroll-behavior: smooth;
+}
+
+.head{
+	color: White;
+	
+	margin-bottom:10px;
+	margin-top:0px;
+	text-align: center;
+	background: radial-gradient(red,black);
+	position:relative;
+	width: 705px;
+	border-style:solid;
+	border-width:1px; 
+	border-color: white;
+	font-size: 65px;
+	cursor:pointer;
+	box-shadow: 0px 0px 20px #000000;
+	text-shadow: 0px 0px 20px #000000;
+	text-shadow: 0px 0px 10px #000000;
+	transition-duration: 1s;
+}
+
+.head:hover{
+	color: white;
+	box-shadow: 0px 0px 20px red;
+	
+
+}
+
+.navbar{
+	background:#0000FF50;
+	font-size:30px;
+	position:relative;
+	font-weight: bold;
+	width: 705px;
+	color:white;
+	transition-duration: 1s;
+}
+
+.navbar:hover {
+	background:#ff000050;
+	box-shadow: 0px 0px 5px yellow;
+}
+
+
+.navbar ul{
+	padding:0;
+	margin:0;
+	position:relative;
+	list-style:none;
+}
+
+.navbar ul li{
+	float:left;
+	background:#00000050;	
+	listy-style:none;
+	transition: background 0.5s;
+	
+}
+
+.navbar ul li a{
+	padding-right:57px;
+	padding-left:70px;	
+	color:yellow;
+	text-decoration:none;
+	
+	
+}
+	
+
+
+.navbar ul li:hover> ul{
+	display:block;
+}
+
+.navbar ul li:hover {
+	background:black;
+}
+
+.navbar ul li:active {
+	background:yellow;
+}
+
+.navbar ul:after{
+	content:""; 
+	clear:both; 
+	display:block;
+	
+}
+
+
+
+.navbar ul ul li{
+	float:none;
+	text-align:left;
+	position:relative;
+}
+
+
+
+.navbar ul li a:hover {
+	color:white;
+}
+
+.navbar ul ul{
+	background:#00000090;
+	box-shadow: 0px 10px 40px #00000090;
+	backdrop-filter: blur(10px);
+	position:absolute;
+	width:240px;
+	z-index:1;
+}
+
+
+.navbar ul ul li a{
+	padding-right:150px;
+	padding-left:5px;
+	color: white;
+	text-align:left;
+	font-size: 20px;
+	text-aline:center;
+	font-weight:normal;
+	
+}
+
+.navbar ul ul li:hover {
+	background:yellow;
+}
+
+.navbar ul ul li a:hover {
+	color:black;
+	width:50px;
+}
+	
+.navbar ul ul li a[class]{
+	padding-right: 192px;
+}
+
+.navbar ul ul li a[Java]{
+	padding-right: 145px;
+}
+
+.navbar ul ul li a[HTML]{
+	padding-right: 180px;
+}
+
+.navbar ul ul li a[python]{
+	padding-right: 185px;
+}
+
+
+.tutlist{
+	display:none;
+}
+
+.tutorials:hover .tutlist{
+	display:block;
+}
+
+
+
+.grid-container> div {
+	padding: 10px;
+	font-size: 10px;
+}
+
+
+.html-button{
+	height:60px;
+	margin-top:5px;
+	width:300px;
+	background:green;
+	top:20px;
+	border-radius: 40px;
+	border:none;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	border-bottom:1px solid white;
+	box-shadow: 0px 10px 10px #00000020;
+	z-index:-1;
+}
+
+
+.html-button:active {	
+	cursor:pointer;	
+	background:#B50000;
+	color:white;
+}
+
+
+.HTML{
+	color:black;
+	font-family: verdana;
+	font-size:14px;
+	text-align: center;
+	background:  #ffffff;
+	position:relative;
+	top:15px;
+	margin-left:11px;
+	width: 680px;
+	height: 3000px;
+		
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #000000;
+	transition: box-shadow 0.31s;
+	
+}
+
+
+.htmldata{
+	margin-top:15px;
+	margin-bottom:10px;
+	font-size: 45px;
+	font-family: arial;
+}
+
+
+
+video{
+	width:647px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.htmltags{
+	width:230px;
+	z-index:1;
+	position:absolute;
+	margin-left: 10px;
+}
+
+.dontmiss{
+	
+	width:647px;
+}
+
+.join{
+	width:647px;
+}
+
+
+.creator{
+	top:100px;
+	position:relative;
+	width:670px;
+}
+
+
+.joinbutton{
+	height:45px;
+	width:200px;
+	top:821px;
+	left:27px;
+	position:absolute;
+	background:#007187;
+	border-radius: 40px;
+	border:none;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	border-bottom:1px solid white;
+	box-shadow: 0px 7px 8px #00000020;
+	z-index:1;
+}
+
+
+.joinbutton:active {	
+	cursor:pointer;	
+	background:#B50000;
+	color:white;
+}
+
+
+.CSSDOWNLOAD{
+	color:white;
+	text-align: center;
+	background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+	position:relative;
+	top:20px;
+	width: 650px;
+	height: 300px;
+	margin-left:6px;
+	right:2px;
+	border-radius:10px;
+	border:0.2px solid white;
+	backdrop-filter:blur(6px);
+	
+	transition: box-shadow 0.31s;
+	transition: transform 0.21s;
+}
+	
+
+
+.cssdata{
+	margin-top:50px;
+	margin-bottom:40px;
+	font-size: 45px;
+	font-family: arial;
+}
+
+.CSS-button{
+	height:60px;
+	margin-top:5px;
+	width:300px;
+	background:green;
+	top:30px;
+	border-radius: 40px;
+	border:none;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	border-bottom:1px solid white;
+	box-shadow: 0px 10px 10px #00000020;
+	z-index:-1;
+}
+
+
+.CSS-button:active {	
+	cursor:pointer;	
+	background:#B50000;
+	color:white;
+}
+
+
+
+.JAVADOWNLOAD{
+	color:white;
+	text-align: center;
+	background: linear-gradient(90deg,rgba(0, 36, 35, 1) 31%, rgba(0, 128, 115, 1) 100%);
+	position:relative;
+	top:40px;
+	margin-left:6px;
+	right:2px;
+	width: 650px;
+	height: 300px;
+	border-radius:10px;
+	border:0.1px solid #ffffff10;
+	backdrop-filter:blur(6px);
+	transition: box-shadow 0.31s;
+	transition: transform 0.21s;
+	
+}
+
+.javadata{
+	margin-top:65px;
+	margin-bottom:3s0px;
+	font-size: 45px;
+	font-family: arial;
+}
+
+
+.java-button{
+	height:60px;
+	margin-top:5px;
+	width:300px;
+	background:green;
+	top:40px;
+	border-radius: 40px;
+	border:none;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	border-bottom:1px solid white;
+	box-shadow: 0px 10px 10px #00000020;
+	z-index:-1;
+}
+
+
+.java-button:active {	
+	cursor:pointer;	
+	background:#B50000;
+	color:white;
+}
+
+
+.PYTHONDOWNLOAD{
+	color:white;
+	text-align: center;
+	background: linear-gradient(90deg,rgba(13, 0, 36, 1) 31%, rgba(121, 9, 9, 1) 100%);
+	position:relative;
+	top:60px;
+	margin-left:6px;
+	right:2px;
+	width: 650px;
+	height: 300px;
+	border-radius:10px;
+	border:0.1px solid #ffffff10;
+	backdrop-filter:blur(6px);
+	transition: box-shadow 0.31s;
+	transition: transform 0.21s;
+	
+
+}
+
+
+.pythondata{
+	margin-top:65px;
+	margin-bottom:30px;
+	font-size: 45px;
+	font-family: arial;
+}
+
+
+.python-button{
+	height:60px;
+	margin-top:5px;
+	width:300px;
+	background:green;
+	top:50px;
+	border-radius: 40px;
+	border:none;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	border-bottom:1px solid white;
+	box-shadow: 0px 10px 10px #00000020;
+	z-index:-1;
+}
+
+
+.python-button:active {	
+	cursor:pointer;	
+	background:#B50000;
+	color:white;
+}
+
+
+.contact{
+	height:45px;
+	width:200px;
+	top:2910px;
+	left:17px;
+	position:absolute;
+	background:#090979;
+	border-radius: 40px;
+	border:none;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	border-bottom:1px solid white;
+	box-shadow: 0px 7px 8px #00000020;
+	z-index:1;
+}
+
+
+.contact:active {	
+	cursor:pointer;	
+	background:#B50000;
+	color:white;
+}
